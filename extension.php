@@ -17,7 +17,6 @@ class DebugBar extends AbstractExtension {
 	 */
 	private $_log_files = array('console_log','error_log','query_log','event_log','var_dump_log');
 
-	protected $_dependencies = array("Jquery");
 	/**
 	 * Register CSS and JS files
 	 *
